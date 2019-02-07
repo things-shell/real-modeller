@@ -121,7 +121,6 @@ class BoardModeller extends LitElement {
           }}"
           fit="ratio"
           .baseUrl=${this.baseUrl}
-          @contextmenu="${e => this.onContextMenu(e)}"
           .provider=${this.provider}
           name="modeller"
         >
