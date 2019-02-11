@@ -71,7 +71,7 @@ class ThingsEditorButtonsRadio extends LitElement {
 
   render() {
     return html`
-      <slot select="paper-button" @tap=${e => this._onTapButton(e)}></slot>
+      <slot select="paper-button" @click=${e => this._onTapButton(e)}></slot>
     `
   }
 

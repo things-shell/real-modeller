@@ -128,7 +128,7 @@ class BoardModeller extends LitElement {
 
         <things-scene-inspector .scene="${this.scene}"></things-scene-inspector>
 
-        <mwc-fab icon="save" @tap=${e => this.onTapSave(e)} title="save"> </mwc-fab>
+        <mwc-fab icon="save" @click=${e => this.onTapSave(e)} title="save"> </mwc-fab>
       </div>
 
       <property-sidebar
